@@ -1,0 +1,24 @@
+# --- Scan run artifacts ---------------------------------------------------
+# These contain target-specific findings and local paths. Never commit them.
+results.json
+code_search_results.json
+report.html
+*.log
+test_*.json
+
+# detector.sh outputs (--save-log files land as *.log above; --bulk dirs here)
+*-bulk-report-*/
+shai-hulud-bulk-report-*/
+
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Editor / OS ----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
