@@ -1,4 +1,17 @@
+<div align="center">
+
+<img src="assets/shai-hulud-ioc-scanner.ico" width="96" alt="Shai-Hulud IOC Scanner">
+
 # Shai-Hulud IOC Scanner
+
+**IOC detection for the Shai-Hulud npm and PyPI supply-chain attacks, on disk and over the GitHub API**
+
+[![license](https://img.shields.io/badge/license-MIT-d6262a?style=flat-square)](LICENSE)
+![platform](https://img.shields.io/badge/platform-Bash%205%2B%20%2F%20Python%203.8%2B-d6262a?style=flat-square)
+
+</div>
+
+---
 
 A toolkit for detecting indicators of compromise (IOCs) from the **Shai-Hulud**
 and **Mini Shai-Hulud** npm / PyPI supply-chain attacks (September 2025 – May
